@@ -7,10 +7,11 @@ const babel = require('babelify');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
+const DEBUG = true; // Setear a true para produccion
 
 // process JS files and return the stream.
 gulp.task('js', () =>{
-  const bundler = browserify('./src/index.js', { debug: true }).transform(babel);
+  const bundler = browserify('./src/index.js', { debug: DEBUG }).transform(babel);
   return bundler.bundle()
     .on('error', (err)=>{
       console.error(err);
@@ -18,7 +19,7 @@ gulp.task('js', () =>{
     })
     .pipe(source('build.js'))
     .pipe(buffer())
-    .pipe(sourcemaps.init({ loadMaps: true }))
+    .pipe(sourcemaps.init({ loadMaps: DEBUG }))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./build'));
 });
