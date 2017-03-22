@@ -1,6 +1,7 @@
 # Plantilla FE ( gulp )
 
 Setup básico para prototipar un proyecto estático de FE.
+
 Incluye:
 
 - [Gulp](https://github.com/gulpjs/gulp) 
@@ -11,8 +12,11 @@ Incluye:
 
 ---
 **PRE-REQUISITOS** 
+
 Hay que tener instalado [Node.js](https://nodejs.org/)
+
 Se recomienda usar **[nvm](https://github.com/creationix/nvm)** de ser posible.
+
 ---
 
 ## Usar
