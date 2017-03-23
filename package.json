@@ -4,7 +4,6 @@
   "description": "Un proyecto basico para prototipar FE.",
   "main": "index.js",
   "dependencies": {
-    "yargs": "^7.0.2"
   },
   "devDependencies": {
     "babel-preset-env": "^1.1.8",
@@ -19,7 +18,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^7.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
