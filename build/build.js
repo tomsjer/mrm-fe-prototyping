@@ -63,6 +63,6 @@ function unaFuncion() {
 }
 exports.unaFuncion = unaFuncion;
 
-},{}]},{},[1])
+},{}]},{},[1]);
 
 //# sourceMappingURL=build.js.map

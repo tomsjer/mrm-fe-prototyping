@@ -1,0 +1,18 @@
+{
+  "defaultDebug": true,
+  "temporaryFolder" : "./.tmp/",
+  "serverBaseDirectory" : "./",
+  "productionModeFlag" : "production",
+  "scripts" : {
+    "sourcePath" : "./src/",
+    "entryScript" : "index.js",
+    "destinationPath" : "./build/",
+    "compiledFileName" : "build.js",
+    "sourcemapsBaseDirectory" : "./"
+  },
+  "styles" : {
+    "sourcePath" : "./styles/",
+    "destinationPath" : "./css/",
+    "compiledFileName" : "main.css"
+  }
+}
