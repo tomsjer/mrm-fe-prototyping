@@ -28,15 +28,29 @@ $ npm start
 ```
 
 ## Notas
-- Se debe respetar la estructura de carpetas:
+- Se puede configurar las rutas de la aplicacion mediante el config.json
+- Por defecto se utiliza la siguiente estructura:
 ```
 root/
  |__ .tmp/
- |__ build/
- |__ css/
- |__ src/
- |__ styles/
+ |__ dist/
+ |  |__  css/
+ |  |__  js/
+ |  |__  fonts/
+ |
+ |__ app/
+ |  |__  css/
+ |  |__  js/
+ |  |    |__ vendor/
+ |  |    |__ modules/
+ |  |    |__ index.js
+ |  |__
+ |  |__  sass/
+ |       |__ mixins/
+ |       |__ partials/
+ |       |__ main.scss
+ |
+ |__ index.html
 
- index.html
 ```
 (Obviamente esta puede ser modificada si también se edita el gulpfile.js.)

@@ -4,15 +4,19 @@
   "serverBaseDirectory" : "./",
   "productionModeFlag" : "production",
   "scripts" : {
-    "sourcePath" : "./src/",
+    "sourcePath" : "./app/js/",
     "entryScript" : "index.js",
-    "destinationPath" : "./build/",
+    "destinationPath" : "./dist/js/",
     "compiledFileName" : "build.js",
     "sourcemapsBaseDirectory" : "./"
   },
   "styles" : {
-    "sourcePath" : "./styles/",
-    "destinationPath" : "./css/",
+    "sourcePath" : "./app/sass/",
+    "destinationPath" : "./dist/css/",
     "compiledFileName" : "main.css"
+  },
+  "fonts" : {
+    "sourcePath" : "./app/fonts/",
+    "destinationPath" : "./dist/fonts/"
   }
 }
